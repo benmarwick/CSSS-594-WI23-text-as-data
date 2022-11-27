@@ -6,7 +6,7 @@ FROM us-west1-docker.pkg.dev/uwit-mci-axdd/rttl-images/jupyter-rstudio-notebook:
 RUN R -e "install.packages(c('quanteda', 'quanteda.textstats', 'text2vec', 'tidytext', 'spacyr', 'koRpus', 'topicmodels', 'stm', 'openNLP', 'rsvd'), repos='https://cran.rstudio.com')"
 
 # --- Metadata ---
-LABEL maintainer = "Ben Marwick <bmarwick@uw.edu>" 
+LABEL maintainer = "Ben Marwick <bmarwick@uw.edu>"  \
   org.opencontainers.image.description="Dockerfile for the class CSSS 594 WI23 text-as-data" \
   org.opencontainers.image.created="2022-11" \
   org.opencontainers.image.authors="Ben Marwick" \
