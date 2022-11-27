@@ -7,7 +7,7 @@ RUN R -e "install.packages(c('quanteda', 'quanteda.textstats', 'text2vec', 'tidy
 
 # --- Metadata ---
 LABEL maintainer = "Ben Marwick <bmarwick@uw.edu>" 
-  Name="Dockerfile for the class CSSS 594 WI23 text-as-data" \
+  org.opencontainers.image.description="Dockerfile for the class CSSS 594 WI23 text-as-data" \
   org.opencontainers.image.created="2022-11" \
   org.opencontainers.image.authors="Ben Marwick" \
   org.opencontainers.image.url="https://github.com/benmarwick/CSSS-594-WI23-text-as-data/blob/master/Dockerfile" \
